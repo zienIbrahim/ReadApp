@@ -1,0 +1,113 @@
+<!-- <div class="container"> -->
+<div class="row">
+
+    <div class="col-2">
+        <nav>
+            <div class="nav__container">
+                <a class="nav__item " [class.active]="ishome" (click)="switchPage('ishome')">
+                    <div class="nav__item-icon">
+                        <fa-icon icon="home" class="icon" size="2x"></fa-icon>
+                        <!--           <ion-icon name="home-outline"></ion-icon>
+   -->
+                    </div>
+                    <div class="nav__item-name">Home</div>
+                </a>
+                <a class="nav__item active" [class.active]="isProfile" (click)="switchPage('isProfile')">
+                    <div class="nav__item-icon">
+                        <!--           <ion-icon name="people-outline"></ion-icon>
+    
+   -->
+                        <fa-icon icon="user" class="icon" size="2x"></fa-icon>
+                    </div>
+                    <div class="nav__item-name">Profile</div>
+                </a>
+                <a class="nav__item" [class.active]="isBlog" (click)="switchPage('isBlog')">
+                    <div class="nav__item-icon">
+                        <fa-icon icon="blog" class="icon" size="2x"></fa-icon>
+                        <!--           <ion-icon name="newspaper-outline"></ion-icon>
+   -->
+                    </div>
+                    <div class="nav__item-name">Blog</div>
+                </a>
+                <a class="nav__item" [class.active]="isSignOut" (click)="switchPage('isSignOut')">
+                    <div class="nav__item-icon">
+                        <fa-icon icon="sign-out-alt" class="icon" size="2x"></fa-icon>
+                        <!--           <ion-icon name="log-out-outline"></ion-icon>
+   -->
+                    </div>
+                    <div class="nav__item-name">Sign out</div>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="col-10">
+        <div class="row pt-10 ">
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="media d-flex">
+                                <div class="media-body text-left">
+                                    <h3 class="warning">156</h3>
+                                    <span>Profile</span>
+                                </div>
+                                <div class="align-self-center">
+                                    <fa-icon icon="user" class="icon" size="2x"></fa-icon>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 mb-0" style="height: 7px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="media d-flex">
+                                <div class="media-body text-left">
+                                    <h3 class="warning">156</h3>
+                                    <span>Blog</span>
+                                </div>
+                                <div class="align-self-center">
+                                    <fa-icon icon="blog" class="icon" size="2x"></fa-icon>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 mb-0" style="height: 7px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="media d-flex">
+                                <div class="media-body text-left">
+                                    <h3 class="warning">156</h3>
+                                    <span>Home</span>
+                                </div>
+                                <div class="align-self-center">
+                                    <fa-icon icon="home" class="icon" size="2x"></fa-icon>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 mb-0" style="height: 7px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- </div> -->
